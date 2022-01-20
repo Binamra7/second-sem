@@ -1,0 +1,10 @@
+;WAP to input data from port address 01H and out through the port address 02H.
+
+IN 01H; INPUTS DATA FROM PORT 01H
+OUT 02H; OUTPUTS DATA FROM PORT 02H
+HLT; STOP OR TERMINATE THE PROGRAM
+
+;LXI H, 9100H;
+;MOV A,M;
+;OUT 05H;
+;HLT
