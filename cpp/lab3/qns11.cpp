@@ -3,17 +3,16 @@
 #include <iostream>
 using namespace std;
 
-int a=0, b=1, c;
-
 void fib(int n)
 {
-    if(n>0)
+    static int a = 0, b = 1, c;
+    if (n > 0)
     {
-        cout<<a<<" ";
-        c=a+b;
-        a=b;
-        b=c;
-        fib(n-1);
+        cout << a << " ";
+        c = a + b;
+        a = b;
+        b = c;
+        fib(n - 1);
     }
 }
 
