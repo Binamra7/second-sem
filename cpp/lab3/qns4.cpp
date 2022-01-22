@@ -6,16 +6,18 @@ int x, y;
 
 int main()
 {
-    int set = 0;
+    int hi = 100;
     cout << "enter two temperatures: " << endl;
     cin >> x >> y;
-    high() = set;
+    high() = hi;
     if (x == 100)
         cout << "Higher temperature = " << x << endl
              << "Lower temperature = " << y;
     else if (y == 100)
-        cout << "Higher temperature = " << y << endl
-             << "Lower temperature = " << x;
+        cout
+            << "Lower temperature = " << x
+            << endl
+            << "Higher temperature = " << y;
 }
 
 int &high()

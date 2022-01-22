@@ -14,12 +14,18 @@ int main()
     cin >> m;
 
     int temp = n;
+
+    string s = to_string(temp);
+    int len = s.length();
     // cout << temp;
     int x = 1;
     int power = b % m;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < len; i++)
     {
-        if (temp % 10 == 1)
+        // if (temp == 0)
+        //     break;
+        // if (temp % 10 == 1)
+        if (s[len - 1 - i] == '1')
             x = (x * power) % m;
 
         power = (power * power) % m;
