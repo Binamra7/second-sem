@@ -34,7 +34,7 @@ void convert(Distance &d)
 
 int main()
 {
-    int scaling_factor = 5;
+    // int scaling_factor = 5;
     Distance d;
     // d = {5, 25};
     int f, i;
