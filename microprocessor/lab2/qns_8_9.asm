@@ -1,0 +1,22 @@
+
+//qns 8
+#ORG 3000H
+#BEGIN 3000H
+
+LDA 9100H;
+MVI B, 0FH;
+ANA B;
+MOV C,A;
+HLT
+
+// qns 9
+#ORG 3000H
+#BEGIN 3000H
+
+LDA 2100H;
+MVI B, F0H;
+ANA B;
+MOV C,A;
+HLT
+
+

@@ -1,0 +1,17 @@
+;qns 8
+
+
+
+LDA 9100H;
+MVI B, 0FH;
+ANA B;
+MOV C,A;
+HLT;
+
+;qns 9
+
+;LDA 2100H;
+;MVI B, F0H;
+;ANA B;
+;MOV C,A;
+;HLT
