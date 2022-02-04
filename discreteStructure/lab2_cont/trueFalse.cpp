@@ -4,29 +4,6 @@ using namespace std;
 
 int main()
 {
-    // bool p, q, y, z;
-    // cout << "Enter p: ";
-    // cin >> p;
-    // cout << "Enter q: ";
-    // cin >> q;
-
-    // // conditional
-    // if (p == 0 and q == 1)
-    // {
-    //     y = 0;
-    // }
-    // else
-    //     y = 1;
-    // cout<<"y="<<y<<endl;
-
-    // // biconditional
-    // if (p == q)
-    // {
-    //     z = 1;
-    // }
-    // else
-    //     z = 0;
-    // cout<<"z="<<z<<endl;
 
     char p[4] = {'F', 'F', 'T', 'T'}, q[4] = {'F', 'T', 'F', 'T'};
     char y[2] = {'F', 'T'};
