@@ -4,12 +4,12 @@ using namespace std;
 
 class AddAmount
 {
-    float balance;
+    float balance = 50;
 
 public:
     AddAmount()
     {
-        balance += 50;
+        balance = 50;
     }
     AddAmount(float d)
     {
