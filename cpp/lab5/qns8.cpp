@@ -15,13 +15,13 @@ class Add
 public:
     Add(int l, int b)
     {
-        cout << "Constructor is called" << endl;
+        cout << "//Constructor is called" << endl;
         length = l;
         breadth = b;
     }
     ~Add()
     {
-        cout << "Destructor is called" << endl;
+        cout << "//Destructor is called" << endl;
     }
     void display(Add a1, Add a2)
     {
