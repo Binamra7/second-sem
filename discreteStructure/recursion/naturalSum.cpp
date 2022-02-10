@@ -12,7 +12,7 @@ long long int findSum(int n)
 
 int main()
 {
-    cout << "Enter the number:";
+    cout << "Enter the number: ";
     int n;
     cin >> n;
     cout << "The sum of " << n << " natural numbers = " << findSum(n);
