@@ -1,0 +1,13 @@
+# BEGIN 0000
+# ORG 0000
+	   LHLD 2020
+	   MOV A,H
+	   SUB L
+	   MVI B,00
+	   JC LOOP
+	   STA 2050
+	   HLT
+
+LOOP:	   INR B
+	   STA 2050
+	   HLT

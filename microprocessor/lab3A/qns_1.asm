@@ -1,0 +1,14 @@
+# BEGIN 2000
+# ORG 2000
+	   MVI C,00
+	   LHLD 2020
+	   MOV A,H
+	   ADD L
+	   JC LOOP
+	   STA 2050
+	   HLT
+
+LOOP:	   INR C
+	   MOV D,A
+	   STA 2050
+	   HLT

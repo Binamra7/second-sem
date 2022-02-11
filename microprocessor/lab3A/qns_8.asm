@@ -1,0 +1,10 @@
+# BEGIN 0000
+# ORG 0000
+	   MVI A,02
+	   MVI B,02
+	   SUB B
+	   JZ ZERO
+	   HLT
+
+ZERO:	   STA 2050
+	   HLT
