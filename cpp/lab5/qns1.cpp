@@ -14,7 +14,7 @@ class Complex
 public:
     void read()
     {
-        cout << "Enter num in a + ib: \n";
+        cout << "Enter num in a + ib format: \n";
         cin >> real >> imag;
     }
     void display(Complex ans)
