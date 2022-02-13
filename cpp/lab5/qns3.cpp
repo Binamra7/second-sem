@@ -1,4 +1,5 @@
-// Create a class named Test and perform class test for assigning values and copy constructor
+// Create a class named Test and perform class test for assigning values and copy
+// constructor
 // and needed function for display. Use copy constructor to pass two values code and price.
 #include <iostream>
 

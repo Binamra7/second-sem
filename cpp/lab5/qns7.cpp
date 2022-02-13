@@ -14,6 +14,7 @@ class Employee
     char name[20];
 
 public:
+    // Employee() {}
     Employee(int i, int s, char n[])
     {
         id = i;
@@ -43,7 +44,7 @@ int main()
     e3.display();
     e4.display();
     e5.display();
-    
+
     // Employee e[10];
     // int n;
     // int salary, id;
