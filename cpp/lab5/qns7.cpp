@@ -53,13 +53,14 @@ int main()
     // cin >> n;
     // for (int i = 0; i < n; i++)
     // {
+        
     //     cout << "Enter id: ";
     //     cin >> id;
     //     cout << "Enter salary: ";
     //     cin >> salary;
     //     cout << "Enter name: ";
     //     cin >> name;
-    //     e[i].storeData(id, salary, name);
+    //     Employee e[i](id, salary, name);
     // }
     // for (int i = 0; i < n; i++)
     // {
