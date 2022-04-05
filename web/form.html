@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Name" /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Email" /><br />
+      <label for="password">Password:</label>
+      <input type="password" placeholder="Password" /><br />
+
+      Choose Gender<br />
+      <input
+        type="radio"
+        value="male"
+        id="male"
+        name="gender"
+        checked="checked"
+      />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" value="female" id="female" name="gender" />
+      <label for="female">Female</label>
+      <br />
+
+      Choose faculty
+      <input type="dropdown" name="faculty" />
+      <select name="faculty">
+        <option>BSc. CSIT</option>
+        <option>BCA</option>
+        <option>BSW</option>
+        <option>BBA</option>
+      </select>
+      <br />
+      <input
+        id="football"
+        type="checkbox"
+        name="checkbox"
+        value="checkbox"
+        checked="checked"
+      />
+      <label for="football">Football</label><br />
+      <input id="cricket" type="checkbox" name="checkbox" value="checkbox" />
+      <label for="cricket">Cricket</label><br />
+      <input id="basketball" type="checkbox" name="checkbox" value="checkbox" />
+      <label for="basketball">Basketball</label><br />
+
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
